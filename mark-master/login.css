@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+#container {
+	width: 950px;
+	height: 100%;
+	background: #88E46B;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+#login-box {
+	border: 5px solid #484C47;
+	position: absolute;
+	width: 500px;
+	height: 550px;
+	top: 88px;
+	left: 410px;
+}
+#img {
+	position: absolute;
+	top: 30px;
+	left: 80px;
+}
+#st {
+	font-weight: bold;
+	font-size: 30px;
+	font-family: 'Karla', sans-serif;
+	position: absolute;
+	top: 50px;
+	left: 200px;
+}
+hr {
+	position: absolute;
+	top: 90px;
+	left: 200px;
+	width: 215px; 
+	border: 2px solid #484C47;
+	background-color: #484C47;
+}
+input[type=text], input[type=password] {
+	width: 65%;
+	padding: 12px 20px;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	margin-top: 60px;
+	position: relative;
+	top: 120px;
+	border-radius: 20px;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+#fgt {
+	position: absolute;
+	top: 340px;
+	left: 290px;
+	font-size: 16px;
+}
+#lgn {
+	border: 0;
+	width: 100px;
+	height: 40px;
+	border-radius: 20px;
+	position: absolute;
+	top: 380px;
+	left: 300px;
+}
+#sgn {
+	border: 0;
+	width: 100px;
+	height: 40px;
+	border-radius: 20px;
+	position: absolute;
+	top: 380px;
+	left: 85px;
+}
+input#box {
+	position: absolute;
+	top: 472px;
+	left: 40px;
+	width: 20px;
+	height: 20px;	
+}
+#keep {
+	position: absolute;
+	font-size: 16px;
+	top: 471px;
+	left: 70px;
+}
+#fb {
+	width: 350px;
+	height: 70px;
+	background-color: #4b6bae;
+	position: absolute;
+	top: 235px;
+	left: 60px;
+}
+#gm {
+	width: 350px;
+	height: 70px;
+	background-color: #c0d2e5;
+	position: absolute;
+	top: 400px;
+	left: 60px;
+}
+#png {
+	margin-top: 9px;
+	margin-left: 29px;
+}
+#facebook {
+	font-size: 22px;
+	position: absolute;
+	top: 20px;
+	left: 95px;
+	font-family: 'Karla', sans-serif;
+	font-weight: bold;
+}
+#mail {
+	margin-top: 10px;
+	margin-left: 29px;
+}
+#gmail {
+	font-size: 22px;
+	position: absolute;
+	top: 20px;
+	left: 95px;
+	font-family: 'Karla', sans-serif;
+	font-weight: bold;
+}
